@@ -1,0 +1,30 @@
+body{
+  background-color: #EDF3E4 ;
+font-family: 'Spectral', serif;
+}
+h1 {
+padding: 25px;
+background-color:#F6DCDC;
+height: 50px;
+width: 100%
+}
+div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 400px;
+  height: 400px;
+  margin: 30px;
+}
+@media screen and (max-width: 500px){
+  div{
+
+    }
+  img {
+    width: 300px;
+    height: 300px;
+    margin-left: 30%;
+  }
+}
